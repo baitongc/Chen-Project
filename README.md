@@ -19,10 +19,12 @@ sns.pairplot(mvp, x_vars=['PTS','WS/48','MP','TW','G%','G','Age','WS'], y_vars='
 The relationship shows as follow: 
 ![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/data.png "Logo Title Text 1")
 
+From the visulization of the relationships, I think the factors impact on MVP winners are points, WS, WS/48, minutes played per game, percent team wins, and game played. 
 
 
+## Model the Data
 
-
+Two different models used to predict the future MVP. The first one is Support-Vector Clustering(SVC) with the poly kernel. By changing the gamma value, the model could have a better accuracy. I used 37 MVP winners and 46 non-MVP with all the factors I have to fit the model. The other model I used is logistic regression which I have chosen the factors with higher impacts based on the visulization during the explore the data. 
 
 
 
