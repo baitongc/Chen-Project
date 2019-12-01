@@ -17,7 +17,7 @@ sns.pairplot(mvp, x_vars=['PTS','WS/48','MP','TW','G%','G','Age','WS'], y_vars='
 ```
 
 The relationship shows as follow: 
-![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/data.png "Logo Title Text 1")
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/data.png "relationships")
 
 From the visulization of the relationships, I think the factors impact on MVP winners are points, WS, WS/48, minutes played per game, percent team wins, and game played. 
 
@@ -27,7 +27,11 @@ From the visulization of the relationships, I think the factors impact on MVP wi
 Two different models used to predict the future MVP. The first one is Support-Vector Clustering(SVC) with the poly kernel. By changing the gamma value, the model could have a better accuracy. I used 37 MVP winners and 46 non-MVP with all the factors I have to fit the model. The other model I used is logistic regression which I have chosen the factors with higher impacts based on the visulization during the explore the data. 
 
 
+## As of Result
 
+First I used both model to "predict" the MVP winner in 2018 season which we already know is Giannis Antetokounmpo. By using SVC with a gamma of 0.002( the best gamma I could find manually), the model predicted 4 players could be the MVP which included Giannis the MVP, James Harden, Nikola Jokic, and Damian Lillard. All four of them were actual MVP canadids from last season.
+
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/svc2018.png "prediction with SVC")
 
 
 
