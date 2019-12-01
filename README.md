@@ -5,7 +5,12 @@ Basketball is one of the most popular sports in the world, and NBA represents th
 
 ## Data Description 
 
-All the stats used in this project are obtained from [Basketball reference](https://www.basketball-reference.com/leagues/NBA_2019_per_game.html). There are three sets of data used in this project. First one is named MVP which is included pass years' MVP winners and some non-MVP players. This dataset is used to train the model which I will use to predict the MVP winner. The other two datasets are the stats of all players in season 2018 and season 2019(As of Nov 30th). 
+All the stats used in this project are obtained from [Basketball reference](https://www.basketball-reference.com/leagues/NBA_2019_per_game.html). There are three sets of data used in this project. First one is named MVP which is included pass years' MVP winners and some non-MVP players. This dataset is used to train the model which I will use to predict the MVP winner. The other two datasets are the stats of all players in season 2018 and season 2019(As of Nov 30th). The stats included the name of player, age, team, game played, points per game, assists per game, steals per game, blocks per game, percent field goals, percent three points, percent free throws, win share, win share per 48 minutes, and overall percent team wins.
+
+
+## Explore the Data
+
+
 
 
 
