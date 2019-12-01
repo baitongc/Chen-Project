@@ -1,6 +1,6 @@
-## Who will be the next NBA _MVP_** winner?
+## Who will be the next NBA MVP winner?
 
-This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
+Basketball is one of the most popular sports in the world, and NBA represents the highest level of playing the sport. So the MVP winner from NBA is the best player of the basketball in that year. I know everyone has their own MVP in their mind, but do you think it is possible using the stats of passing MVP to predict the future MVP?
 
 ```yml
 title: [The title of your site]
