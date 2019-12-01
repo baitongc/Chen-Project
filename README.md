@@ -1,4 +1,4 @@
-## Who will be the next NBA MVP winner?
+## Who will be the next NBA _MVP_** winner?
 
 This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
 
