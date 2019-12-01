@@ -33,9 +33,20 @@ First I used both model to "predict" the MVP winner in 2018 season which we alre
 
 ![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/svc2018.png "prediction with SVC")
 
+For the logistic regression model, it predicted Giannis and 14 other great players as MVP.
 
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/log2018.png "prediction with LOG")
 
+I think SVC has a better accurcy than logistic regression model, but both models have predicted the actual MVP winner in their results.
 
+Now I want to predict the MVP for the current on-going season. I used the data as of Noverber 30th to predict the MVP. 
+For SVC model with gamma of 0.0214, it predicted either Luka Doncic or LeBron James would be the MVP winner. Personally I also think one of these two will be the MVP.
+
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/svc2019.png "prediction with SVC for 19-20")
+
+For the regression model, it predicted 15 players as the MVP for the 2019-2020 season which most of them are in the MVP canadid lists.
+
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/log2019.png "prediction with log for 19-20")
 
 
 
