@@ -10,9 +10,14 @@ All the stats used in this project are obtained from [Basketball reference](http
 
 ## Explore the Data
 
+Before we deciding on what kind of model is suitable for our prediction of MVP, I graphed the data to visualize the diffferences between MVP and the non-MVP. The following code was used:
 
+```yml
+sns.pairplot(mvp, x_vars=['PTS','WS/48','MP','TW','G%','G','Age','WS'], y_vars='Title', height=7, aspect=0.7)
+```
 
-
+The relationship shows as follow: 
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/data.png "Logo Title Text 1")
 
 
 
