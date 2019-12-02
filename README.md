@@ -2,7 +2,7 @@
 
 Basketball is one of the most popular sports in the world, and NBA represents the highest level of playing the sport. So the MVP winner from NBA is the best player of the basketball in that year. I know everyone has their own MVP in their mind, but do you think it is possible using the stats of passing MVP to predict the future MVP?
 
-![alt text](https://www.github.com/baitongc/Chen-Project/blob/master/photo/to/nextmvp.jpg "nextmvp?")
+![alt text](https://www.github.com/baitongc/Chen-Project/blob/master/photo/nextmvp.jpg "nextmvp?")
 
 
 ## Data Description 
