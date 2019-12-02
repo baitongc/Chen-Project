@@ -19,6 +19,7 @@ sns.pairplot(mvp, x_vars=['PTS','WS/48','MP','TW','G%','G','Age','WS'], y_vars='
 ```
 
 The relationship shows as follow: 
+
 ![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/data.png?raw=true "relationships")
 
 From the visulization of the relationships, I think the factors impact on MVP winners are points, WS, WS/48, minutes played per game, percent team wins, and game played. 
@@ -33,22 +34,22 @@ Two different models used to predict the future MVP. The first one is Support-Ve
 
 First I used both model to "predict" the MVP winner in 2018 season which we already know is Giannis Antetokounmpo. By using SVC with a gamma of 0.002( the best gamma I could find manually), the model predicted 4 players could be the MVP which included Giannis the MVP, James Harden, Nikola Jokic, and Damian Lillard. All four of them were actual MVP canadids from last season.
 
-![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/svc2018.png "prediction with SVC")
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/svc2018.png?raw=true "prediction with SVC")
 
 For the logistic regression model, it predicted Giannis and 14 other great players as MVP.
 
-![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/log2018.png "prediction with LOG")
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/log2018.png?raw=true "prediction with LOG")
 
 I think SVC has a better accurcy than logistic regression model, but both models have predicted the actual MVP winner in their results.
 
 Now I want to predict the MVP for the current on-going season. I used the data as of Noverber 30th to predict the MVP. 
 For SVC model with gamma of 0.0214, it predicted either Luka Doncic or LeBron James would be the MVP winner. Personally I also think one of these two will be the MVP.
 
-![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/svc2019.png "prediction with SVC for 19-20")
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/svc2019.png?raw=true "prediction with SVC for 19-20")
 
 For the regression model, it predicted 15 players as the MVP for the 2019-2020 season which most of them are in the MVP canadid lists.
 
-![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/log2019.png "prediction with log for 19-20")
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/log2019.png?raw=true "prediction with log for 19-20")
 
 Overall two models have pretty good pridictions, we will see which model could predict the MVP winner in 2020!!!
 
