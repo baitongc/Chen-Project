@@ -1,13 +1,13 @@
 ## Who will be the next NBA MVP winner?
 
-Basketball is one of the most popular sports in the world, and NBA represents the highest level of playing the sport. So the MVP winner from NBA is the best player of the basketball in that year. I know everyone has their own MVP in their mind, but do you think it is possible using the stats of passing MVP to predict the future MVP?
+Basketball is one of the most popular sports in the world, and NBA represents the highest level of playing the sport. The MVP winner from NBA is the best basketball player in that year. I know everyone has his or her own choice of MVP in mind, but do you think it is possible to use the stats of passing MVP to predict the future MVP?
 
 ![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/nextmvp.jpg?raw=true "nextmvp?")
 
 
 ## Data Description 
 
-All the stats used in this project are obtained from [Basketball reference](https://www.basketball-reference.com/leagues/NBA_2019_per_game.html). There are three sets of data used in this project. First one is named MVP which is included 37 pass MVP winners and 46 non-MVP players . This dataset is used to train the model which I will use to predict the MVP winner. The other two datasets are the stats of 622 players in season 2018 and 457 season 2019(As of Nov 30th). The stats included the name of player, age, team, game played, points per game, assists per game, steals per game, blocks per game, percent field goals, percent three points, percent free throws, win share, win share per 48 minutes, and overall percent team wins. Indeed, the added the percent team wins to all the players.
+All the stats used in this project are obtained from [Basketball reference](https://www.basketball-reference.com/leagues/NBA_2019_per_game.html). There are three sets of data used in this project. First one is named MVP.xlsx which included 37 pass MVP winners and 46 non-MVP players . This dataset is used to train the model which I will use to predict the MVP winner. The other two datasets are the stats of 622 players in season 2018 and 457 season 2019(As of Nov 30th). The stats included the name of player, age, team, game played, points per game, assists per game, steals per game, blocks per game, percent field goals, percent three points, percent free throws, win share, win share per 48 minutes, and overall percent team wins. Indeed, the added the percent team wins to all the players.
 
 
 ## Explore the Data
@@ -30,7 +30,7 @@ From the visulization of the relationships, I think the factors impact on MVP wi
 Before start to fit in the data for models, the response value which is ethier MVP or None is transformed into 0 or 1. Two different models used to predict the future MVP. The first one is Support-Vector Clustering(SVC) with the poly kernel. By changing the gamma value, the model could have a better accuracy. I used 37 MVP winners and 46 non-MVP with all the factors I have to fit the model. The other model I used is logistic regression which I have chosen the factors with higher impacts based on the visulization during the explore the data. 
 
 
-## As of Result
+## Conclusion
 
 First I used both model to "predict" the MVP winner in 2018 season which we already know is Giannis Antetokounmpo. By using SVC with a gamma of 0.002( the best gamma I could find manually), the model predicted 4 players could be the MVP which included Giannis the MVP, James Harden, Nikola Jokic, and Damian Lillard. All four of them were actual MVP canadids from last season.
 
