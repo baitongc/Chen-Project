@@ -19,7 +19,7 @@ sns.pairplot(mvp, x_vars=['PTS','WS/48','MP','TW','G%','G','Age','WS'], y_vars='
 ```
 
 The relationship shows as follow: 
-![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/data.png "relationships")
+![alt text](https://github.com/baitongc/Chen-Project/blob/master/photo/data.png?raw=true "relationships")
 
 From the visulization of the relationships, I think the factors impact on MVP winners are points, WS, WS/48, minutes played per game, percent team wins, and game played. 
 
@@ -33,11 +33,11 @@ Two different models used to predict the future MVP. The first one is Support-Ve
 
 First I used both model to "predict" the MVP winner in 2018 season which we already know is Giannis Antetokounmpo. By using SVC with a gamma of 0.002( the best gamma I could find manually), the model predicted 4 players could be the MVP which included Giannis the MVP, James Harden, Nikola Jokic, and Damian Lillard. All four of them were actual MVP canadids from last season.
 
-![alt text](raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/svc2018.png "prediction with SVC")
+![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/svc2018.png "prediction with SVC")
 
 For the logistic regression model, it predicted Giannis and 14 other great players as MVP.
 
-![alt text](raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/log2018.png "prediction with LOG")
+![alt text](https://raw.githubusercontent.com/baitongc/Chen-Project/blob/master/photo/log2018.png "prediction with LOG")
 
 I think SVC has a better accurcy than logistic regression model, but both models have predicted the actual MVP winner in their results.
 
