@@ -54,6 +54,8 @@ For the regression model, it predicted 15 players as the MVP for the 2019-2020 s
 Overall two models have pretty good pridictions, we will see which model could predict the MVP winner in 2020!!!
 
 
+Finally here is a simple assigment about this project [click](https://github.com/baitongc/Chen-Project/blob/master/assignment.ipynb)
+
 
 
 
